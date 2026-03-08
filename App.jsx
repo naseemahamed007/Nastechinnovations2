@@ -1,4 +1,5 @@
 import DarkModeToggle from "./components/DarkModeToggle";
+import FloatingParticles from "./components/FloatingParticles";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
 import ProjectsSection from "./components/ProjectsSection";
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <DarkModeToggle />
+      <FloatingParticles />
       <HeroSection />
       <ServicesSection />
       <ProjectsSection />
